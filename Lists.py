@@ -22,3 +22,28 @@ print(to_do_list)
 
 # Print the second item in the second list
 print((to_do_list[1][2]))
+
+# Append and item to a list
+grocery_list.append('Onions')
+print(to_do_list)
+
+# Insert an item into a list
+grocery_list.insert(1, "Pickle")
+
+# Remove an item from a list
+grocery_list.remove("Pickle")
+
+# Sort a list
+grocery_list.sort()
+
+# Reverse sort a list
+grocery_list.reverse()
+
+# Delete the fifth item in grocery list
+del grocery_list[4]
+print(to_do_list)
+
+
+
+print(grocery_list)
+print(len(to_do_list))
