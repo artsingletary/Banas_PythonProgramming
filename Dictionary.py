@@ -23,5 +23,10 @@ print (len(super_villains))
 
 print(super_villains.get("Fiddler"))
 
+# Get a list of dictionary keys 
 print(super_villains.keys())
+
+# Get a list of dictionary values
+print(super_villains.values())
+
 
