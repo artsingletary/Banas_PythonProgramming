@@ -9,8 +9,11 @@ super_villains = {'Fiddler' : 'Isaac Bowin',
                  'Pied Piper' : 'Thomas Peterson'
                  }
 
-# Get the value for the key
+# Print the value 
 print(super_villains['Captain Cold'])
+
+# Another way to print the value
+print(super_villains.get("Captain Cold"))
 
 # Delete a dictionary entry
 del super_villains['Fiddler']
@@ -20,8 +23,6 @@ super_villains['Pied Piper'] = 'Hartley Rathaway'
 
 # Get the number of key, value pairs we have
 print (len(super_villains))
-
-print(super_villains.get("Fiddler"))
 
 # Get a list of dictionary keys 
 print(super_villains.keys())
