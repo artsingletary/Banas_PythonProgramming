@@ -1,3 +1,28 @@
+
+
+
+# Print numbers 0 through 9 on one line
+for x in range(0, 10):
+  print(x,' ',end="")
+  
+# Print a list
+grocery_list = ['Juice', 'Tomatoes', 'Potatoes',
+                'Bananas']
+       
+for y in grocery_list:
+  print(y)        
+
+# Define a list to cycle through 
+for x in [2,4,6,8,10]:
+  print(x)
+
+# List inside a list
+num_list = [[1,2,3], [10,20,30], [100,200,330]]
+
+for x in range(0,3)
+  
+
+
 """
 ##############################################
 # Print out numbers 2,4,6,8,10
@@ -69,7 +94,6 @@ while (i != rand_num):
    i += 1
 print ("The random value is : ", rand_num, i)
 
-"""
 ####################################################################################
 # Loop 20 interations.  Just print out the odds.  Break out of the look when i is 15
 ####################################################################################
@@ -85,3 +109,4 @@ while i <= 20:
 
      print ("Odd : ", i)
      i += 1
+"""
