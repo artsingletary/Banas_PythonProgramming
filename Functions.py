@@ -1,14 +1,14 @@
-"""
-def add_numbers(num1, num2):
-   return num1 + num2
+import random
+import sys
+import os
 
-print("5 + 4 = ", add_numbers(5,4))
-"""
+def addNumber(fNum, lNum):
+     sumNum = fNum + lNum
+     # What goes on inside a function stays there unless it is returned
+     return sumNum
+ 
+print(addNumber(1,4))
 
-def change_name(name):
-    name = "Art"
-
-name = "Kristen"
-change_name(name)
-
-print (name)
+print('What is your name')
+name = sys.stdin.readline()
+print('Hello', name)

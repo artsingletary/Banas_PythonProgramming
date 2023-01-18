@@ -1,3 +1,16 @@
+import random
+import sys
+import os
+
+long_string = "I'll catch you if you fall - The Floor"
+
+# Print first four characters of the string 
+print(long_string[0:4])
+
+# Print last five characters of the string
+print(long_string[-5:])
+
+
 """
 rand_string = "    this is an important string    "
 
