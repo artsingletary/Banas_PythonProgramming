@@ -10,6 +10,11 @@ print(long_string[0:4])
 # Print last five characters of the string
 print(long_string[-5:])
 
+# Print everything up to the last five characters
+print(long_string[:-5])
+
+# Print first four characters of one string and concat with another string
+print(long_string[:4] + " be there")
 
 """
 rand_string = "    this is an important string    "
